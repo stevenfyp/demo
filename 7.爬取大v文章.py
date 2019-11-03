@@ -35,7 +35,15 @@ for json_title in json_titles:
     time.sleep(2)
     sheet.append(list1)
 wb.save('大V张佳玮.xlsx')
-55555
+
+
+#csv方法
+# import csv
+# csv_file=open('demo.csv','w',newline='')
+# writer = csv.writer(csv_file)
+# writer.writerow(['电影','豆瓣评分'])
+# csv_file.close()
+
 
 
 # # 练习答案
